@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="jquery-3.6.0.min.js"></script>
+<title>2-JQ-Element_ID_Class of CSS</title>	
+</head>
+
+<body>
+	
+	<h1>Hiding some Elements</h1><br>
+	<h1>CSS Hiding</h1><br>
+	
+	
+	<p class="test" style="background-color:yellow; color:red;">A-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><br>
+	
+	<p class="test1" style="background-color:black; color:white;"> B-Lorem Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scramble</p><br>
+	
+	<ul>
+		<li class="l1" style="background-color:skyblue; color:red;">L1- Ipsum has been the industry's standard scramble</li>		
+		
+		<li class="l2" style="background-color:skyblue; color:red;">L2- Ipsum has been the industry's standard scramble</li>
+		
+	</ul>
+	
+	<button id="btn" style="background-color: orange; color: white; padding: 5px; border-radius:5px; width: 100px">
+	Click me</button>
+	
+	
+	
+	
+	<script>
+	
+		$(document).ready(function(){
+			$('#btn').click(function(){
+//			$('.test').hide();	
+////			$('.l2').hide();
+//			$('h1').hide();
+			$('li:second').hide();
+				
+				
+			});
+		});
+		
+	</script>
+	
+</body>
+</html>
